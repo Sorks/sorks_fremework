@@ -1,0 +1,13 @@
+{
+    "name": "sorks/frakework",
+    "description": "php framework",
+    "type": "project",
+    "license": "1.0",
+    "authors": [
+        {
+            "name": "sorks",
+            "email": "1055494751@qq.com"
+        }
+    ],
+    "require": {}
+}
