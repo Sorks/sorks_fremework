@@ -2,12 +2,27 @@
     "name": "sorks/frakework",
     "description": "php framework",
     "type": "project",
-    "license": "1.0",
+    "license": "Apache-2.0",
+    "keywords": [
+        "php",
+        "sorks",
+        "framework"
+    ],
     "authors": [
         {
             "name": "sorks",
             "email": "1055494751@qq.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.1.13",
+        "filp/whoops": "*",
+        "sorks/library": "dev-master"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.org"
+        }
+    }
 }
