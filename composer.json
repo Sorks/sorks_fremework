@@ -15,12 +15,9 @@
         }
     ],
     "require": {
-        "php": ">=7.1.13"
-    },
-    "require-dev": {
+        "php": ">=7.1.13",
         "sorks/library": "dev-master",
-        "filp/whoops": "^2.0",
-        "phpunit/phpunit": "^7.0"
+        "filp/whoops": "^2.0"
     },
     "repositories": {
         "packagist": {
