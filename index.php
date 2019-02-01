@@ -10,5 +10,4 @@ require __DIR__.'/vendor/sorks/library/s/Loading.php';
 // 注册自动加载
 Loading::register();
 
-// 执行框架应用
-Container::get()->run();
+App::run();
