@@ -3,7 +3,7 @@
 namespace s;
 
 define('DS', DIRECTORY_SEPARATOR);
-define('ROOT', $_SERVER['DOCUMENT_ROOT']);
+define('ROOT', rtrim($_SERVER['DOCUMENT_ROOT'], '/').'/');
 
 require __DIR__.'/vendor/sorks/library/s/Loading.php';
 
