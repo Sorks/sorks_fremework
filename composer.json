@@ -16,8 +16,7 @@
     ],
     "require": {
         "php": ">=7.1.13",
-        "sorks/library": "v1.0",
-        "filp/whoops": "^2.0"
+        "sorks/library": "v1.0"
     },
     "repositories": {
         "packagist": {
